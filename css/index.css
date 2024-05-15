@@ -59,6 +59,10 @@
   top: 0;
 }
 
+.pos{
+    text-align: center;
+   
+}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -73,6 +77,9 @@
 
 .active, .dot:hover {
   background-color: #717171;
+}
+.size{
+     font-size: 130%;
 }
 
 /* Fading animation */
