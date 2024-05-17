@@ -2,14 +2,17 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+ box-shadow: solid #717171;
+
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  
 }
 
 /* Next & previous buttons */
@@ -93,3 +96,17 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+.space{
+  text-align: center;
+  font-size:80px;
+  }
+  .tex{
+   color: #EFC61E;
+  
+  }
+  .padding{
+    padding: 40px;
+    margin: 60px;
+ font-weight: bold;
+ font-size: 50px;
+  }
