@@ -3,7 +3,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid rgb(31, 11, 184);
     border-radius: 4px;
   }
   
@@ -18,3 +18,28 @@ input[type=text] {
     font-size: 16px;
     resize: none;
   }
+  .form-align{
+            background-color:rgb(124, 173, 194);
+            width: 50%;
+            height: 680px;
+            display: block;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 15px  ;
+            -webkit-border-radius: 15px  ;
+            -moz-border-radius: 15px  ;
+            -ms-border-radius: 15px  ;
+            -o-border-radius: 15px  ;
+}
+.heading{
+  color:#EFC61E;
+  text-align: center;
+}
+.center{
+  margin-left: 40%;
+  padding: 10px 27px 10px 27px;
+  background-color:rgb(124, 173, 194);
+  color:#161615;
+  font-size: 20px;
+
+}
