@@ -10,3 +10,24 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.pos3{
+ 
+        text-align: center;
+        color: #EFC61E;
+
+  
+}
+.align-center{
+ margin-left: 20px;
+ -ms-flex-align: center;
+}
+.text-space{
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+}
+
+/* gallary2 */
+img {
+    border-radius: 50%;
+  }
