@@ -44,3 +44,33 @@ input[type=text] {
  
 
 }
+
+/*dark light*/
+.same-theme{
+  width: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.dark-icon{
+  align-items: center;
+  margin-left: 8px; 
+  background-color:  rgb(255, 251, 251);     
+}
+.light-icon{
+  margin-left: 14px;
+}
+.light-icon:hover{
+  background-color: rgb(55, 55, 55);
+  transition: 2s;
+
+}
+.theme-dark {
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
+.theme-light {
+  background-color: rgb(255, 254, 251);
+  color: black;
+}

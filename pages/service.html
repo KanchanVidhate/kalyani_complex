@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="../css/service.css">
 </head>
-<body>
+<body id="body">
+  <!--dark light theme-->
+<div>
+  <img src="../img/dark.png" class="dark-icon same-theme active" id="img-dark" onclick="darkMode()" />
+  <img src="../img/light.png" class="light-icon same-theme" id="img-light" onclick="lightMode()" /></div>
+<!--end dark light theme-->
     
     <!--navbar -->
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,15 +28,15 @@
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link size" aria-current="page" href="./index.html"><b>Home</b></a>
+                <a class="nav-link size" aria-current="page" href="../index.html"><b>Home</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link size" href="#"><b>Gallery</b></a>
+                <a class="nav-link size" href="../pages/gallery.html"><b>Gallery</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link size" href="./pages/service.html"><b>Service</b></a>
+                <a class="nav-link size" href="../pages/service.html"><b>Service</b></a>
               </li>
-              <a href="./pages/booking.html">
+              <a href="../pages/booking.html">
               <button type="button" class="btn btn-outline-warning" ><b>Book Now</b></button>
             </ul></a>
           </div>
@@ -81,7 +86,8 @@
 </div></div>
 
 <!--gallary 2-->
-    <div class="pos">
+    <div class="pos lg bg-secondary-subtle  bg-body-tertiary rounded"><br>
+      <h2 class="pos"><b> Journey</b></h2>
       <img src="../img/service-gal/wht-chilika-150x150.jpg" alt="Avatar" height="80px">
       <img src="../img/service-gal/wht-dhauli-150x150.jpg" alt="Avatar" height="80px">
       <img src="../img/service-gal/wht-khandagiri-150x150.jpg" alt="Avatar" height="80px">
@@ -90,8 +96,77 @@
       <img src="../img/service-gal/wht-mata-math-150x150.jpg" alt="Avatar" height="80px">
       <img src="../img/service-gal/wht-nandankanan-150x150.jpg" alt="Avatar" height="80px">
       <img src="../img/service-gal/wht-puri-temple-150x150.jpg" alt="Avatar" height="80px">
-      <img src="../img/service-gal/wht-wtr-prk-150x150.jpg" alt="Avatar" height="80px">
-    </div>
+      <img src="../img/service-gal/wht-wtr-prk-150x150.jpg" alt="Avatar" height="80px"><br><br>
+    </div><br>
+
+     <!--footer-->
+   <br>
+   <script
+     src="https://kit.fontawesome.com/66aa7c98b3.js"
+     crossorigin="anonymous"
+   ></script>
+<footer>
+   <div class="footer">
+     <div class="heading"><br><br>
+       <h2><img src="../img/Kalyani-complex-board-new.jpeg" height="60px"></h2>
+     </div>
+     <div class="content">
+       <div class="services">
+         <h4>Services</h4>
+         <p><a href="./pages/service.html">Tour & Travel Desk</a></p>
+         <p><a href="./pages/service.html">Sri Jagannath Temple visit Facility</a></p>
+         <p><a href="./pages/service.html">Utensils Facility</a></p>
+         <p><a href="./pages/service.html">Wedding Venue</a></p>
+       </div>
+       <div class="social-media">
+         <h4>Social</h4>
+         <p>
+           <a href="www.linkedin.com/in/kanchan-vidhate-8240302aa" >
+             <i class="fab fa-linkedin"></i> Linkedin</a
+           >
+         </p>
+         <p>
+           <a href="https://x.com/i/flow/login" >
+             <i class="fab fa-twitter"></i> Twitter</a
+           >
+         </p>
+         <p>
+           <a href="https://github.com/KanchanVidhate" >
+             <i class="fab fa-github"></i> Github</a >
+         </p>
+         <p>
+           <a href="https://www.facebook.com/home"> 
+             <i class="fab fa-facebook"></i> Facebook</a>
+         </p>
+         <p>
+           <a href="https://www.instagram.com/__kv.24/?next=%2F">
+             <i class="fab fa-instagram"></i> Instagram</a>
+         </p>
+       </div>
+       <div class="links">
+         <h4>Quick links</h4>
+         <p><a href="./index.html">Home</a></p>
+         <p><a href="./pages/gallery.html">Gallery</a></p>
+         <p><a href="./pages/service.html">Service</a></p>
+         <p><a href="./pages/contact.html">Contact</a></p>
+       </div>
+       <div class="details">
+         <h4 class="address">Address</h4>
+         <p> Gourbat sahi, Swargadwar Rd,<br />
+          Odisha 752001 </p>
+         <h4 class="mobile">Mobile</h4>
+         <p><a href="tel:9322303853">+91-93223*****</a></p>
+         <h4 class="mail">Email</h4>
+         <p><a href="mailto:kvidhate34@gmail.com">kvidhate34@gmail.com</a></p>
+       </div>
+      
+     </div>
+    <hr>
+       © COPYRIGHT 2024 | KALYANI COMPLEX.<br><br>
+    
+   </div>
+ </footer>
+<!--end footer-->
     
    <script src="../js/service.js"> </script>
 
