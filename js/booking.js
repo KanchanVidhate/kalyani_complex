@@ -1,5 +1,6 @@
 
 
-function myFunction() {
-    document.getElementById("myForm").reset();
+
+  function myFunction1() {
+    alert("booking Succesfully..!");
   }
